@@ -2,7 +2,6 @@ import { WindowControls } from '#components'
 import { blogPosts } from '#constants'
 import WindowWrapper from '#hoc/WindowWrapper'
 import { ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf } from 'lucide-react'
-import React from 'react'
 
 const Safari = () => {
   return (
@@ -59,6 +58,5 @@ const Safari = () => {
   )
 }
 
-const safariWindow = WindowWrapper(Safari, 'safari')
 
-export default safariWindow
+export default Safari
