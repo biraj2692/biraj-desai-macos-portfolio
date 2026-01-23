@@ -58,10 +58,10 @@ const Dock = () => {
     
     if (window.isOpen) {
       closeWindow(app.id);
+      
     } else {
       openWindow(app.id);
     }
-    console.log(windows)
   };
 
   return (
