@@ -1,5 +1,5 @@
 import { Navbar, Welcome, Dock } from "#components";
-import { Resume, Terminal } from "#windows";
+import { Finder, Resume, Terminal } from "#windows";
 import SafariWindow from "#windows/SafariWindow";
 
 import gsap from "gsap";
@@ -16,6 +16,7 @@ const App = () => {
       <SafariWindow />
       <Terminal />
       <Resume />
+      <Finder />
     </main>
   );
 };
